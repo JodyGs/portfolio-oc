@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Anek_Telugu } from "next/font/google";
 import { GeistSans } from 'geist/font/sans';
+import { GeistMono } from 'geist/font/mono';
 import "./globals.css";
 import { cn } from "@/lib/utils";
 
@@ -10,7 +11,7 @@ const AnekTelugu = Anek_Telugu({
 });
 
 export const metadata: Metadata = {
-  title: "Jody Gs · Fullstack Developper",
+  title: "Jody Gonzales · Fullstack Developper",
   description: "Web developper specialized on Next.js, React, Tailwind and TypeScript ",
 };
 
@@ -22,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="fr" className="h-full">
       <body
-        className={cn(GeistSans.variable, AnekTelugu.variable, "font-sans h-full")}
+        className={cn(GeistSans.variable, GeistMono.variable, AnekTelugu.variable, "font-sans h-full")}
       >
         {children}
       </body>

@@ -30,7 +30,7 @@ export default function Hero() {
 			</div>
 			<div className="flex-[2] max-md:m-auto ml-auto">
 				<img
-					src={"https://melvynx.com/images/my-face.png"}
+					src="/jodygsportfolio.webp"
 					className="w-full h-auto max-w-xs max-md:w-56"
 					alt="Jody Gonzales"
 				/>

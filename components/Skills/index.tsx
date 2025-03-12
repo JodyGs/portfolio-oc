@@ -1,6 +1,7 @@
 import React from 'react'
 import Section from '../Section'
 import { Badge } from '../ui/badge'
+import { ReactIcon, TailwindIcon, ThreejsIcon } from '../Icons'
 
 export default function Skills() {
   return (
@@ -12,24 +13,24 @@ export default function Skills() {
           <div className='flex max-md:flex-col gap-4'>
             <div className='flex flex-col gap-4'>
               {/* Logo SVG size={42} */}
-                <svg className="w-5 h-5 text-primary-foreground lg:w-6 lg:h-6 " fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>   
+                <ReactIcon size={42} className='animate-spin' style={{animationDuration: "10s"}} />
                 <h3 className=" text-2xl font-semibold tracking-tight">
                 React</h3>
-                <p className="text-sm text-muted-foreground">Lorem ipsum dolor sit amet consectetur.</p>
+                <p className="text-sm text-muted-foreground">Mon framework principal. J'utilise également next.js en backend et frontend.</p>
             </div>
             <div className='flex flex-col gap-4'>
               {/* Logo SVG size={42} */}
-                <svg className="w-5 h-5 text-primary-foreground lg:w-6 lg:h-6 " fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>   
+                <TailwindIcon size={42} />
                 <h3 className=" text-2xl font-semibold tracking-tight">
-                React</h3>
-                <p className="text-sm text-muted-foreground">Lorem ipsum dolor sit amet consectetur.</p>
+                Tailwind</h3>
+                <p className="text-sm text-muted-foreground">Je peux créer des applications attrayantes en quelques secondes avec tailwindcss.</p>
             </div>
             <div className='flex flex-col gap-4'>
               {/* Logo SVG size={42} */}
-                <svg className="w-5 h-5 text-primary-foreground lg:w-6 lg:h-6 " fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>   
+                <ThreejsIcon size={42} />
                 <h3 className=" text-2xl font-semibold tracking-tight">
-                React</h3>
-                <p className="text-sm text-muted-foreground">Lorem ipsum dolor sit amet consectetur.</p>
+                Intégration 3D</h3>
+                <p className="text-sm text-muted-foreground">J'intègre des éléments 3D à vos projets avec Three.js et React3Fiber.</p>
             </div>
           </div>
     </Section>

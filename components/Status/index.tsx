@@ -1,7 +1,6 @@
-import { ArrowUpRight, Code, LucideIcon } from "lucide-react";
+import { Code } from "lucide-react";
 import Section from "../Section";
 import { Card } from "../ui/card";
-import { Badge } from "../ui/badge";
 import { SideProject } from "./SideProjects";
 import { ContactCard } from "./ContactCard";
 import { Work } from "./Work";
@@ -10,30 +9,46 @@ const SIDE_PROJECT: SideProjectProps[] = [
 	{
 		Logo: Code,
 		title: "Atka.io",
-		description: "Atka.io Lorem ipsum dolor sit amet consectetur, elit.",
+		description: "Incubateur de projets blockchain.",
+		situation: "Création d'un site web avec une demande d'élément 3D sur le Hero Banner.",
+		competences: "Nextjs - Three.js - Tailwindcss - FramerMotion",
+		probleme: "Difficultés de performances avec la partie Three.js/R3F.",
+		resolution: "Groupement des meshes et des textures pour optmimiser la vitesse du rendu 3D.",
 		text: "ceci est un exemple de texte" ,
-		url: "https://google.fr",
+		url: "https://atka.io",
 	},
 	{
 		Logo: Code,
 		title: "Belong Agency",
-		description: "Lorem ipsum dolor sit amet consectetur, elit.",
+		description: "Agence de communication - relation publique",
+		situation: "Création de site web avec un besoin de backend pour l'intégration des publications de l'agence et une internationalisation (FR/EN)",
+		competences: "Nextjs - Sanity.io (BackEnd)) - Tailwindcss - GSAP (animation)",
+		probleme: "Difficulté pour permettre au client de mettre à jour ses publications.",
+		resolution: "Utilisation d'un backend serverless via sanity.io",
 		text: "ceci est un exemple de texte" ,
-		url: "https://google.fr",
+		url: "https://www.belongparis.com/fr/",
 	},
 	{
 		Logo: Code,
 		title: "W3GC",
-		description: "Lorem ipsum dolor sit amet consectetur, elit.",
+		description: "Conférence jeux video web 3",
+		situation: "Intégration d'une maquette pour le siteweb de la convention.",
+		competences: "Nextjs - Tailwindcss - FramerMotion",
+		probleme: "Difficulté pour placer des cards par rapport a des svg représentant les lignes rouges.",
+		resolution: "J'ai calculé la position de chacun des cards en pixel que j'ai converti en pourcentage afin de pouvoir garder les proportions et de les placer conformément à la maquette",
 		text: "ceci est un exemple de texte" ,
-		url: "https://google.fr",
+		url: "https://w3gc-website-quzqd2tec-jodylo.vercel.app/",
 	},
 	{
 		Logo: Code,
 		title: "Starchain Gazer",
-		description: "Lorem ipsum dolor sit amet consectetur, elit.",
+		description: "Studio de jeux videos web 3",
+		situation: "Refonte du siteweb avec une demande de gestion des candidatures permettant au client de recevoir des CVs dans un espace dropbox",
+		competences: "Nextjs - Tailwindcss - FramerMotion - BackEnd",
+		probleme: "Difficulté de placement des cards de la section our services au niveau du responsive design.",
+		resolution: "Utilisation de css grid pour gérer la taille et le nombre de card selon le breakpoint tout en gardant les porportions de la maquette.",
 		text: "ceci est un exemple de texte" ,
-		url: "https://google.fr",
+		url: "https://w3gc-website-quzqd2tec-jodylo.vercel.app/",
 	},
 ];
 

@@ -1,7 +1,7 @@
 import { ComponentPropsWithoutRef } from "react";
 import Section from "../Section";
 import { cn } from "@/lib/utils";
-import { GithubIcon } from "../Icons";
+import { GithubIcon, ReactIcon } from "../Icons";
 
 const Code = ({ className, ...props }: ComponentPropsWithoutRef<"span">) => {
 	return (
@@ -24,7 +24,7 @@ export default function Hero() {
 				<p className="text-base">
 					Passionné par le développement web et la création
 					d&apos;applications performantes, je suis un développeur
-					spécialisé en <Code><GithubIcon size={16} className="inline" />React</Code> et <Code><GithubIcon size={16} className="inline" />Next.js</Code> .
+					spécialisé en <Code><ReactIcon size={16} className="inline" />React</Code> et <Code><GithubIcon size={16} className="inline" />Next.js</Code> .
 					Actuellement en poste chez <Code>Chrom Interactiv'</Code>. 
 				</p>
 			</div>

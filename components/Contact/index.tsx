@@ -8,7 +8,7 @@ export default function Contact() {
 		<Section className="flex flex-col items-start gap-4">
 			<Badge variant={"outline"}>Me contacter</Badge>
 			<h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
-				Lorem ipsum dolor sit amet, consectetur adipisicing.
+				Je reste à votre disposition.
 			</h2>
 			<div className="flex max-md:flex-col gap-4">
 				<ContactCard

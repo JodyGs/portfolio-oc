@@ -2,7 +2,7 @@ import { AlertDialog, AlertDialogAction, AlertDialogContent, AlertDialogDescript
 import { Button } from "@/components/ui/button";
 import { LucideIcon } from "lucide-react";
 
-type SideProjectProps = {
+export type SideProjectProps = {
 	Logo: LucideIcon;
 	title: string;
 	description: string;

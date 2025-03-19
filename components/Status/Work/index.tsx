@@ -1,5 +1,6 @@
+import { Badge } from "@/components/ui/badge";
 
-type WorkProps = {
+export type WorkProps = {
 	image: string;
 	title: string;
 	role: string;

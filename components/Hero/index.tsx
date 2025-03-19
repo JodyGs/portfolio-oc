@@ -1,12 +1,13 @@
 import { ComponentPropsWithoutRef } from "react";
 import Section from "../Section";
 import { GithubIcon, ReactIcon } from "../Icons";
+import { cn } from "@/lib/utils";
 
 const Code = ({ className, ...props }: ComponentPropsWithoutRef<"span">) => {
 	return (
 		<span
-			className={cn(
-				"border-accent border rounded-sm text-primary bg-accent/30 hover:bg-accent/50 transition-colors px-1 py-0.5 font-mono inline-flex items-center gap-1"
+			className={ cn(
+				"border-accent border rounded-sm text-primary bg-accent/30 hover:bg-accent/50 transition-colors px-1 py-0.5 font-mono inline-flex items-center gap-1", className
 			)}
 			{...props}
 		/>

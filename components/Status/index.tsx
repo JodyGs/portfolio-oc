@@ -1,9 +1,10 @@
 import { Code } from "lucide-react";
 import Section from "../Section";
 import { Card } from "../ui/card";
-import { SideProject } from "./SideProjects";
+import { SideProject, SideProjectProps } from "./SideProjects";
 import { ContactCard } from "./ContactCard";
-import { Work } from "./Work";
+import { Work, WorkProps } from "./Work";
+
 
 const SIDE_PROJECT: SideProjectProps[] = [
 	{

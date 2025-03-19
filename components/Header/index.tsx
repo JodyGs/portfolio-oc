@@ -1,4 +1,3 @@
-import Link from "next/link";
 import {GithubIcon, TwitterIcon, LinkedInIcon} from "../Icons";
 import Section from "../Section";
 import { buttonVariants } from "../ui/button";

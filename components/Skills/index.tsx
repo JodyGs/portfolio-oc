@@ -16,7 +16,7 @@ export default function Skills() {
                 <ReactIcon size={42} className='animate-spin' style={{animationDuration: "10s"}} />
                 <h3 className=" text-2xl font-semibold tracking-tight">
                 React</h3>
-                <p className="text-sm text-muted-foreground">Mon framework principal. J'utilise également next.js en backend et frontend.</p>
+                <p className="text-sm text-muted-foreground">Mon framework principal. J&apos;utilise également next.js en backend et frontend.</p>
             </div>
             <div className='flex flex-col gap-4'>
               {/* Logo SVG size={42} */}
@@ -30,7 +30,7 @@ export default function Skills() {
                 <ThreejsIcon size={42} />
                 <h3 className=" text-2xl font-semibold tracking-tight">
                 Intégration 3D</h3>
-                <p className="text-sm text-muted-foreground">J'intègre des éléments 3D à vos projets avec Three.js et React3Fiber.</p>
+                <p className="text-sm text-muted-foreground">J&apos;intègre des éléments 3D à vos projets avec Three.js et React3Fiber.</p>
             </div>
           </div>
     </Section>

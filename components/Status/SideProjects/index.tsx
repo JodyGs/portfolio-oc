@@ -33,7 +33,7 @@ export const SideProject = (props: SideProjectProps) => {
 					</AlertDialogTrigger>
 					<AlertDialogContent>
 						<AlertDialogHeader>
-						<AlertDialogTitle>{props.title}</AlertDialogTitle>
+						<AlertDialogTitle><a href={props.url}>{props.title}</a></AlertDialogTitle>
 						<AlertDialogDescription className="flex flex-col space-y-4">
 							<span><span className="underline">Situation:</span> {props.situation}</span>
 							<span><span className="underline">Problèmatique:</span> {props.probleme}</span>

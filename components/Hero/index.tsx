@@ -24,8 +24,8 @@ export default function Hero() {
 				<p className="text-base">
 					Passionné par le développement web et la création
 					d&apos;applications performantes, je suis un développeur
-					spécialisé en <Code><ReactIcon size={16} className="inline" />React</Code> et <Code><GithubIcon size={16} className="inline" />Next.js</Code> .
-					Actuellement en poste chez <Code>Chrom Interactiv</Code>. 
+					spécialisé en <Code><ReactIcon size={16} className="inline" />React</Code> et <Code> Next.js </Code> .
+					Actuellement en poste chez <Code>Coding crew</Code>. 
 				</p>
 			</div>
 			<div className="flex-[2] max-md:m-auto ml-auto">

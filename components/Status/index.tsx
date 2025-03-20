@@ -63,7 +63,7 @@ const WORKS: WorkProps[] = [
 	},
 	{
 		image: "https://media.licdn.com/dms/image/v2/C4E0BAQGT9dcLjLPsFQ/company-logo_100_100/company-logo_100_100/0/1677703159471?e=1743638400&v=beta&t=Yqo5PsiSjAZY3eVF2oLro8UV2qNxA4OPg0POeK_OFT0",
-		title: "Chrom Interactiv'",
+		title: "Coding Crew",
 		role: "Développeur FrontEnd",
 		date: "2022 - 2024",
 		url: "https://react.codingcrew.dev/",

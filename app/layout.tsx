@@ -12,7 +12,7 @@ const AnekTelugu = Anek_Telugu({
 
 export const metadata: Metadata = {
   title: "Jody Gonzales · Fullstack Developper",
-  description: "Web developper specialized on Next.js, React, Tailwind and TypeScript ",
+  description: "Développeur spécialisé en Next.js, React, Tailwind et TypeScript ",
 };
 
 export default function RootLayout({
